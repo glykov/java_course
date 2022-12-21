@@ -89,5 +89,21 @@ public class Homework3 {
         int aveDaysToTarget = (minDaysToTarget + maxDaysToTarget) / 2;
         System.out.println("Достижение целевых показателей может занять " + aveDaysToTarget + " дней в среднем");
 
+        // task 08
+        double mashaBaseSalary = 67760.00;
+        double denisBaseSalary = 83690.00;
+        double christinaBaseSalary = 76230.00;
+
+        double mashaRaisedSalary = mashaBaseSalary + mashaBaseSalary * 0.1;
+        double denisRaisedSalary = denisBaseSalary + denisBaseSalary * 0.1;
+        double christinaRaisedSalary = christinaBaseSalary + christinaBaseSalary * 0.1;
+
+        System.out.println("Маша теперь получает " + mashaRaisedSalary + " рублей. Годовой доход вырос на "
+                + (mashaRaisedSalary * 12 - mashaBaseSalary * 12) + " рублей");
+        System.out.println("Денис теперь получает " + denisRaisedSalary + " рублей. Годовой доход вырос на "
+                + (denisRaisedSalary * 12 - denisBaseSalary * 12) + " рублей");
+        System.out.println("Кристина теперь получает " + christinaRaisedSalary + " рублей. Годовой доход вырос на "
+                + (christinaRaisedSalary * 12 - christinaBaseSalary * 12) + " рублей");
+
     }
 }
